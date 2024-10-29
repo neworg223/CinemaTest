@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Search, Film, Clock, User, Calendar, Star, Globe, Theater } from 'lucide-react';
 import { Alert, AlertDescription } from './components/ui/alert';
 
-const TMDB_API_KEY = 'YOUR_TMDB_API_KEY'; // Replace with your API key
+const TMDB_API_KEY = '42c3d29689b398d3ddbf6163d8e61c52'; // Replace with your API key
 const TMDB_API_BASE = 'https://api.themoviedb.org/3';
 const TMDB_IMAGE_BASE = 'https://image.tmdb.org/t/p';
 
